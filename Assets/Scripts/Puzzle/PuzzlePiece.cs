@@ -19,7 +19,15 @@ public class PuzzlePiece : MonoBehaviour, IDragHandler, IBeginDragHandler, IDrop
     private GraphicRaycaster raycaster;
     private PointerEventData pointerEventData;
     private EventSystem eventSystem;
-
+    private void Awake()
+    {
+        CanvasGroup charCanvasGroup = this.gameObject.AddComponent<CanvasGroup>();
+        if (charCanvasGroup)
+        {
+            charCanvasGroup.interactable = true;
+            charCanvasGroup.blocksRaycasts = true;
+        }
+    }
     void Start()
     {
         raycaster = GetComponentInParent<GraphicRaycaster>();

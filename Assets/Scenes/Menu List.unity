@@ -339,38 +339,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.02083333
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.02083333
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.02083333
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 518364625189260989, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1154705285739094225, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -495,10 +463,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4359454164343606902, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_RenderMode
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4741603490718072123, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -522,14 +486,6 @@ PrefabInstance:
     - target: {fileID: 4741603490718072123, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6956807353108350766, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7401121403480744155, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_Pivot.x
@@ -562,18 +518,6 @@ PrefabInstance:
     - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_SizeDelta.y
       value: 7.95322
-      objectReference: {fileID: 0}
-    - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7125
-      objectReference: {fileID: 0}
-    - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7125
-      objectReference: {fileID: 0}
-    - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7125
       objectReference: {fileID: 0}
     - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -638,7 +582,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5202621153348583152, guid: 246ca0f0545272a4695ff9ae2303c31e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5893110581765313426, guid: 246ca0f0545272a4695ff9ae2303c31e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -694,5 +638,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 195050024}
-  - {fileID: 6871790179983763389}
   - {fileID: 1225830194890868848}
+  - {fileID: 6871790179983763389}
