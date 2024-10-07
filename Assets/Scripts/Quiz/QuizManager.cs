@@ -12,14 +12,14 @@ public class QuizManager : GameParent
 	public Image QuestionImage;
 	public AudioClip introSound, wrongSound, CorrentSound;
 	public Dropzone dropZoneAnswer;
-	public LetterTile letter;
+	public VR_LetterTile letter;
 	public GameObject DropZonePanel, ShuffledLetterPanel;
 	public CongratzUIButtonGroup congratzUI;
 	public List<QuizAlphabet> quizList = new List<QuizAlphabet> ();
 
 	AudioSource source;
 	List<Dropzone> dropZoneList = new List<Dropzone> ();
-	List<LetterTile> answerShuffleList = new List<LetterTile> ();
+	List<VR_LetterTile> answerShuffleList = new List<VR_LetterTile> ();
 
 	public static InputState state;
 
@@ -45,12 +45,12 @@ public class QuizManager : GameParent
 	protected override void InitAlphabets ()
 	{
 		QuizAlphabet currentQuiz = quizList [Random.Range (0, quizList.Count)];
-		LetterTile temp;
+		VR_LetterTile temp;
 		Dropzone dropzoneTemp;
 
 		QuestionImage.sprite = currentQuiz.objectImage;
 		foreach (char c in currentQuiz.name) {
-			temp = Instantiate (letter) as LetterTile;
+			temp = Instantiate (letter) as VR_LetterTile;
 			temp.alphabetLetter = char.ToUpper (c).ToString ();
 			temp.name = "Alphabet " + char.ToUpper (c).ToString ();
 
@@ -65,7 +65,7 @@ public class QuizManager : GameParent
 		}
 
 		answerShuffleList = FisherYatesCardDeckShuffle (answerShuffleList);
-		foreach (LetterTile l in answerShuffleList) {
+		foreach (VR_LetterTile l in answerShuffleList) {
 			l.transform.SetParent (ShuffledLetterPanel.transform);
 			l.transform.localScale = Vector3.one;
 
@@ -80,12 +80,12 @@ public class QuizManager : GameParent
 	//=======================================================================================//
 	/// With the Fisher-Yates shuffle, first implemented on computers by Durstenfeld in 1964, 
 	///   we randomly sort elements. This is an accurate, effective shuffling method for all array types.
-	public static List<LetterTile> FisherYatesCardDeckShuffle (List<LetterTile> aList)
+	public static List<VR_LetterTile> FisherYatesCardDeckShuffle (List<VR_LetterTile> aList)
 	{
 
 		System.Random _random = new System.Random ();
 
-		LetterTile myGO;
+		VR_LetterTile myGO;
 
 		int n = aList.Count;
 		for (int i = 0; i < n; i++) {
