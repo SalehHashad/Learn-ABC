@@ -63,6 +63,10 @@ public class SubmenuControl : MonoBehaviour
 			temp.gameObject.name = buttonName [i] + " Button";
 
 			temp.GetComponent<SubmenuButtonScript> ().miniGameID = i;
+
+			if (temp.transform.localScale == new Vector3(48, 48, 48))
+				temp.transform.localScale = Vector3.one;
+
 		}
 	}
 
