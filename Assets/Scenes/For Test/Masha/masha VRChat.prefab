@@ -1,0 +1,787 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5312193740706826633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9054564153584507151, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -9054564153584507151, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -9054564153584507151, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000023911325
+      objectReference: {fileID: 0}
+    - target: {fileID: -9054564153584507151, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000023911325
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7304835189694358799, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7304835189694358799, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1917694475833175885, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -1917694475833175885, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -1917694475833175885, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000023911325
+      objectReference: {fileID: 0}
+    - target: {fileID: -1917694475833175885, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000023911325
+      objectReference: {fileID: 0}
+    - target: {fileID: -1206874426333947015, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -1206874426333947015, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[5]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_Name
+      value: masha VRChat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358744246230317294, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189910828884686895, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221878456267521975, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221878456267521975, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4200148597639600634}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3390519695961762413}
+  m_SourcePrefab: {fileID: 100100000, guid: 1bdd4dfc352ff574bbc719912fbdb1b8, type: 3}
+--- !u!4 &239393313428951584 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3825021747192980567, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2297896905021991242 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3000680478967832381, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &2808247347098604272 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1206874426333947015, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3111047904383778482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2120036977978443973, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3119879011003677984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7130532336993596585, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3231982574089689402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1917694475833175885, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3268993644640877282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7270349569000895339, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3640518183925773591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8880258370173189278, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4044539366489307791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1037618949357833466, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4147459489040607560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1137712641004478271, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5006276407306712280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4200148597639600634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5006276407306712280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 542108242, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  ViewPosition: {x: 0, y: 1.2, z: 0.24}
+  Animations: 0
+  ScaleIPD: 1
+  lipSync: 3
+  lipSyncJawBone: {fileID: 0}
+  lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
+  lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
+  VisemeSkinnedMesh: {fileID: 2808247347098604272}
+  MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
+  VisemeBlendShapes:
+  - Closed-Shape
+  - Closed-Shape
+  - Closed-Shape
+  - Ch-Shape
+  - Closed-Shape
+  - Closed-Shape
+  - Ch-Shape
+  - Ch-Shape
+  - Closed-Shape
+  - Closed-Shape
+  - Ah-Shape
+  - Ah-Shape
+  - Closed-Shape
+  - Oh-Shape
+  - Oh-Shape
+  unityVersion: 2022.3.22f1
+  portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
+  portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  networkIDs: []
+  customExpressions: 1
+  expressionsMenu: {fileID: 11400000, guid: dfce94e1ef507e14c96e3ebe24cae28e, type: 2}
+  expressionParameters: {fileID: 11400000, guid: cd277397234247f4b88e180028d63329,
+    type: 2}
+  enableEyeLook: 1
+  customEyeLookSettings:
+    eyeMovement:
+      confidence: 1
+      excitement: 1
+    leftEye: {fileID: 5471607395673075576}
+    rightEye: {fileID: 3231982574089689402}
+    eyesLookingStraight:
+      linked: 1
+      left: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+      right: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+    eyesLookingUp:
+      linked: 1
+      left: {x: 0.6087614, y: 0, z: 0, w: 0.7933533}
+      right: {x: 0.6087614, y: 0, z: 0, w: 0.7933533}
+    eyesLookingDown:
+      linked: 1
+      left: {x: 0.8191516, y: 0, z: 0, w: 0.5735771}
+      right: {x: 0.8191516, y: 0, z: 0, w: 0.5735771}
+    eyesLookingLeft:
+      linked: 1
+      left: {x: 0.7010574, y: -0.09229596, z: 0.09229596, w: 0.7010574}
+      right: {x: 0.7010574, y: -0.09229596, z: 0.09229596, w: 0.7010574}
+    eyesLookingRight:
+      linked: 1
+      left: {x: 0.7010574, y: 0.09229596, z: -0.09229596, w: 0.7010574}
+      right: {x: 0.7010574, y: 0.09229596, z: -0.09229596, w: 0.7010574}
+    eyelidType: 0
+    upperLeftEyelid: {fileID: 0}
+    upperRightEyelid: {fileID: 0}
+    lowerLeftEyelid: {fileID: 0}
+    lowerRightEyelid: {fileID: 0}
+    eyelidsDefault:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsClosed:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsLookingUp:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsLookingDown:
+      upper:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+      lower:
+        linked: 1
+        left: {x: 0, y: 0, z: 0, w: 0}
+        right: {x: 0, y: 0, z: 0, w: 0}
+    eyelidsSkinnedMesh: {fileID: 0}
+    eyelidsBlendshapes: 000000000000000000000000
+  customizeAnimationLayers: 1
+  baseAnimationLayers:
+  - isEnabled: 0
+    type: 0
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 2
+    animatorController: {fileID: 9100000, guid: 380f03c52a7b055429f34cdcb3965b09,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 3
+    animatorController: {fileID: 9100000, guid: 380f03c52a7b055429f34cdcb3965b09,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 4
+    animatorController: {fileID: 9100000, guid: 380f03c52a7b055429f34cdcb3965b09,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  - isEnabled: 0
+    type: 5
+    animatorController: {fileID: 9100000, guid: e01ffd2fd412c42438bb73416d14be50,
+      type: 2}
+    mask: {fileID: 0}
+    isDefault: 0
+  specialAnimationLayers:
+  - isEnabled: 0
+    type: 6
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 7
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 8
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  AnimationPreset: {fileID: 0}
+  animationHashSet:
+  - hash: 1267987864
+    name: die_hold
+  - hash: -1487177324
+    name: sadkick
+  - hash: -1176525199
+    name: backflip
+  - hash: 527264872
+    name: dance_loop
+  - hash: 2085203268
+    name: stand_cheer_loop
+  - hash: 390180112
+    name: stand_point
+  - hash: -306760433
+    name: stand_clap_loop
+  - hash: 884531561
+    name: stand_wave
+  - hash: 962413785
+    name: seated_raise_hand-hold
+  - hash: -710796399
+    name: vrc2_seated_point
+  - hash: 1083353907
+    name: vrc2_seated_laugh
+  - hash: -618450521
+    name: vrc2_seated_drum-loop
+  - hash: 172075476
+    name: vrc2_seated_disbelief
+  - hash: 1774229777
+    name: vrc2_seated_disapprove
+  - hash: 1244035295
+    name: seated_clap-loop
+  - hash: -604667415
+    name: seated_shake_fist
+  - hash: 711312144
+    name: BlendOut Stand
+  - hash: 316221916
+    name: getup_from_back
+  - hash: 1242512264
+    name: Prepare Standing
+  - hash: -1439543933
+    name: WaitForActionOrAFK
+  - hash: 1745884183
+    name: AFK
+  - hash: 1323262204
+    name: BlendOut
+  - hash: 877246816
+    name: Afk Init
+  - hash: 1056010405
+    name: Restore Tracking (stand)
+  - hash: -916604327
+    name: Prepare Sitting
+  - hash: 527979128
+    name: BlendOut Sit
+  - hash: 378145609
+    name: Restore Tracking (sit)
+  - hash: -741837223
+    name: Sit
+  - hash: 419070886
+    name: Prepare Action
+  - hash: -63829968
+    name: Twist Dance
+  - hash: 1164421391
+    name: Bellydancing
+  - hash: 1674232978
+    name: Rumba Dancing
+  - hash: 1048690877
+    name: Angry
+  - hash: -2113723392
+    name: Excited
+  - hash: 514906925
+    name: Waving
+  - hash: 1267987864
+    name: die_hold
+  - hash: -1487177324
+    name: sadkick
+  - hash: -1176525199
+    name: backflip
+  - hash: 527264872
+    name: dance_loop
+  - hash: 2085203268
+    name: stand_cheer_loop
+  - hash: 390180112
+    name: stand_point
+  - hash: -306760433
+    name: stand_clap_loop
+  - hash: 884531561
+    name: stand_wave
+  - hash: 962413785
+    name: seated_raise_hand-hold
+  - hash: -710796399
+    name: vrc2_seated_point
+  - hash: 1083353907
+    name: vrc2_seated_laugh
+  - hash: -618450521
+    name: vrc2_seated_drum-loop
+  - hash: 172075476
+    name: vrc2_seated_disbelief
+  - hash: 1774229777
+    name: vrc2_seated_disapprove
+  - hash: 1244035295
+    name: seated_clap-loop
+  - hash: -604667415
+    name: seated_shake_fist
+  - hash: 711312144
+    name: BlendOut Stand
+  - hash: 316221916
+    name: getup_from_back
+  - hash: 1242512264
+    name: Prepare Standing
+  - hash: -1439543933
+    name: WaitForActionOrAFK
+  - hash: 1745884183
+    name: AFK
+  - hash: 1323262204
+    name: BlendOut
+  - hash: 877246816
+    name: Afk Init
+  - hash: 1056010405
+    name: Restore Tracking (stand)
+  - hash: -916604327
+    name: Prepare Sitting
+  - hash: 527979128
+    name: BlendOut Sit
+  - hash: 378145609
+    name: Restore Tracking (sit)
+  - hash: -741837223
+    name: Sit
+  - hash: 419070886
+    name: Prepare Action
+  - hash: -63829968
+    name: Twist Dance
+  - hash: 1164421391
+    name: Bellydancing
+  - hash: 1674232978
+    name: Rumba Dancing
+  - hash: 1048690877
+    name: Angry
+  - hash: -2113723392
+    name: Excited
+  - hash: 514906925
+    name: Waving
+  - hash: 1267987864
+    name: die_hold
+  - hash: -1487177324
+    name: sadkick
+  - hash: -1176525199
+    name: backflip
+  - hash: 527264872
+    name: dance_loop
+  - hash: 2085203268
+    name: stand_cheer_loop
+  - hash: 390180112
+    name: stand_point
+  - hash: -306760433
+    name: stand_clap_loop
+  - hash: 884531561
+    name: stand_wave
+  - hash: 962413785
+    name: seated_raise_hand-hold
+  - hash: -710796399
+    name: vrc2_seated_point
+  - hash: 1083353907
+    name: vrc2_seated_laugh
+  - hash: -618450521
+    name: vrc2_seated_drum-loop
+  - hash: 172075476
+    name: vrc2_seated_disbelief
+  - hash: 1774229777
+    name: vrc2_seated_disapprove
+  - hash: 1244035295
+    name: seated_clap-loop
+  - hash: -604667415
+    name: seated_shake_fist
+  - hash: 711312144
+    name: BlendOut Stand
+  - hash: 316221916
+    name: getup_from_back
+  - hash: 1242512264
+    name: Prepare Standing
+  - hash: -1439543933
+    name: WaitForActionOrAFK
+  - hash: 1745884183
+    name: AFK
+  - hash: 1323262204
+    name: BlendOut
+  - hash: 877246816
+    name: Afk Init
+  - hash: 1056010405
+    name: Restore Tracking (stand)
+  - hash: -916604327
+    name: Prepare Sitting
+  - hash: 527979128
+    name: BlendOut Sit
+  - hash: 378145609
+    name: Restore Tracking (sit)
+  - hash: -741837223
+    name: Sit
+  - hash: 419070886
+    name: Prepare Action
+  - hash: -63829968
+    name: Twist Dance
+  - hash: 1164421391
+    name: Bellydancing
+  - hash: 1674232978
+    name: Rumba Dancing
+  - hash: 1048690877
+    name: Angry
+  - hash: -2113723392
+    name: Excited
+  - hash: 514906925
+    name: Waving
+  - hash: -791826707
+    name: Clothes0
+  - hash: -1479893381
+    name: Clothes1
+  autoFootsteps: 1
+  autoLocomotion: 1
+  collider_head:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 5136935837405509358}
+    radius: 0.0024475278
+    height: 0
+    position: {x: 2.6746214e-10, y: 0.0030594072, z: -9.313225e-10}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_torso:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 3640518183925773591}
+    radius: 0.0013212583
+    height: 0.0026425165
+    position: {x: -7.0193806e-17, y: 0.001005301, z: -1.1641532e-10}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_footR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 3111047904383778482}
+    radius: 0.00039229865
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_footL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 4147459489040607560}
+    radius: 0.00039229865
+    height: 0
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_handR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 5398382552017002656}
+    radius: 0.00016628193
+    height: 0.0006651277
+    position: {x: -0.000013002595, y: 0.0005637761, z: 0.000040218954}
+    rotation: {x: -0.6814858, y: 0, z: 0.0001000088, w: 0.7318314}
+  collider_handL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 8441798140665009021}
+    radius: 0.00016628191
+    height: 0.00066512765
+    position: {x: 0.000013001854, y: 0.0005637759, z: 0.00004021892}
+    rotation: {x: -0.6814854, y: 0, z: -0.0001000206, w: 0.7318317}
+  collider_fingerIndexL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 3119879011003677984}
+    radius: 0.00008367232
+    height: 0.0004183616
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerMiddleL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 6675069681451427205}
+    radius: 0.00008049657
+    height: 0.00040248284
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerRingL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 7889701427158383979}
+    radius: 0.00011025289
+    height: 0.00055126444
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerLittleL:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 3268993644640877282}
+    radius: 0.00007880077
+    height: 0.00039400382
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerIndexR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 239393313428951584}
+    radius: 0.00008367232
+    height: 0.0004183616
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerMiddleR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 2297896905021991242}
+    radius: 0.000080496495
+    height: 0.00040248246
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerRingR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 6814672118832705585}
+    radius: 0.0001102529
+    height: 0.0005512645
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  collider_fingerLittleR:
+    isMirrored: 1
+    state: 0
+    transform: {fileID: 4044539366489307791}
+    radius: 0.000078800775
+    height: 0.00039400384
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &3390519695961762413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5006276407306712280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchedFromSDKPipeline: 0
+  completedSDKPipeline: 0
+  blueprintId: avtr_4c5ff4da-dafc-4868-97b9-fd31e8bebb51
+  contentType: 0
+  assetBundleUnityVersion: 
+  fallbackStatus: 1
+--- !u!4 &5136935837405509358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1077129843224952679, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5398382552017002656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8984016758150944471, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5471607395673075576 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9054564153584507151, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6675069681451427205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1520572412411128844, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6814672118832705585 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1669181935503178168, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7889701427158383979 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2649644534187209954, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8441798140665009021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4854881903909119244, guid: 1bdd4dfc352ff574bbc719912fbdb1b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5312193740706826633}
+  m_PrefabAsset: {fileID: 0}
