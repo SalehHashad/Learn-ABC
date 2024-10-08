@@ -5,7 +5,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-	[SerializeField]
+	public static GameManager Instance;
+    public int fromIndex = 0;
+    public int toIndex = 25;
+
+
+    [SerializeField]
 //	SiwedwGoogleMobileAds
 //		m_adMob;
 
@@ -62,9 +67,13 @@ public class GameManager : MonoBehaviour
 	
 	void Start ()
 	{
+		if (Instance != null) { }
+		else
+			Instance = this;
+
 //		Sing.gm.adMob.RequestBanner (AdSize.SmartBanner, AdPosition.Bottom);
-	//	RequestInterstitialAd ();
-		ResetTime ();
+//	RequestInterstitialAd ();
+        ResetTime ();
 	}
 
 	void OnLevelWasLoaded (int level)

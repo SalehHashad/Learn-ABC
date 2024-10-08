@@ -942,6 +942,12 @@ MonoBehaviour:
   Pattern:
   - Dots
   - Sequences
+  Chars:
+  - A-F
+  - G-L
+  - M-R
+  - S-Z
+  IsCharCount: 0
 --- !u!1 &1426255155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 161390, guid: 4d272b60913910341a08db9d5849e562, type: 3}

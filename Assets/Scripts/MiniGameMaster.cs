@@ -11,14 +11,21 @@ using System.Collections.Generic;
 public class MiniGameMaster : MonoBehaviour
 {
 	public static int id;
-	public List<Transform> miniGamePanel = new List<Transform> ();
+    public List<Transform> miniGamePanel = new List<Transform> ();
 
-	void Start ()
+    private void Awake()
+    {
+        //GameParent.alphabetIndex = GameManager.Instance.fromIndex;
+        //miniGamePanel[id].GetComponent<GameParent>().fromIndex = GameManager.Instance.fromIndex;
+        //miniGamePanel[id].GetComponent<GameParent>().toIndex = GameManager.Instance.toIndex;
+    }
+
+    void Start()
 	{
 		foreach (Transform t in miniGamePanel)
 			if (t != null)
 				t.gameObject.SetActive (false);
 
-		miniGamePanel [id].gameObject.SetActive (true);
+        miniGamePanel [id].gameObject.SetActive (true);
 	}
 }

@@ -11,14 +11,28 @@ public class GameParent : MonoBehaviour
 {
 	public string backtoScene;
 
-	[HideInInspector]
+    // Updated From Me 
+
+    public int fromIndex = 0;
+	public int toIndex = 25;
+
+    //Finished Here
+
+    [HideInInspector]
 	public static string
 		alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	public static int alphabetIndex = 0;
 
-	/// Jika user menekan tombol back, game akan 
-	/// kembali pada menu sebelumnya
-	void Update ()
+    private void Awake()
+    {
+        alphabetIndex = GameManager.Instance.fromIndex;
+        fromIndex = GameManager.Instance.fromIndex;
+        toIndex = GameManager.Instance.toIndex;
+    }
+
+    /// Jika user menekan tombol back, game akan 
+    /// kembali pada menu sebelumnya
+    void Update ()
 	{
 		if (Input.GetKeyDown (KeyCode.Escape))
 			BackToScene ();
@@ -31,8 +45,8 @@ public class GameParent : MonoBehaviour
 
 	public virtual void OnPrevButtonClick ()
 	{
-		if (alphabetIndex == 0)
-			alphabetIndex = 25;
+		if (alphabetIndex == fromIndex)
+			alphabetIndex = toIndex;
 		else
 			alphabetIndex--;
 		InitAlphabets ();
@@ -40,14 +54,14 @@ public class GameParent : MonoBehaviour
 
 	public virtual void OnNextButtonClick ()
 	{
-		if (alphabetIndex >= 25)
-			alphabetIndex = 0;
+		if (alphabetIndex >= toIndex)
+			alphabetIndex = fromIndex;
 		else
 			alphabetIndex++;
 		InitAlphabets ();
 	}
 
-	protected virtual void InitAlphabets ()
+    protected virtual void InitAlphabets ()
 	{
 
 	}

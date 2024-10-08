@@ -387,6 +387,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2399688435652590252, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUpperButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2399688435652590252, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuButtonsScript, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2567945161158657070, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -410,6 +418,18 @@ PrefabInstance:
     - target: {fileID: 2567945161158657070, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2770607769096396328, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUpperButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2770607769096396328, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuButtonsScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2770607769096396328, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3097924867942138540, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_Name
@@ -463,6 +483,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4533697740475285547, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUpperButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533697740475285547, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuButtonsScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4533697740475285547, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4741603490718072123, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -486,6 +518,14 @@ PrefabInstance:
     - target: {fileID: 4741603490718072123, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6894498680148796248, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUpperButtonClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 6894498680148796248, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuButtonsScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8588611752374652668, guid: 6b08b576ba9b05e4ea6df9915216fa71, type: 3}
       propertyPath: m_Pivot.x

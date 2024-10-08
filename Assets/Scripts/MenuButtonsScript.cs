@@ -45,6 +45,34 @@ public class MenuButtonsScript : MonoBehaviour
 				Application.LoadLevel ("Submenu Select");
 			}
 			break;
+		case 4:
+			{
+				SubmenuControl.menuType = SubmenuControl.SubMenuType.FindCorrectImage;
+				SubmenuControl.gotoScene = "Find the Answer";
+				Application.LoadLevel ("Submenu Select");
+			}
+			break;
+		case 5:
+			{
+				SubmenuControl.menuType = SubmenuControl.SubMenuType.Puzzle;
+				SubmenuControl.gotoScene = "Puzzle";
+				Application.LoadLevel ("Submenu Select");
+			}
+			break;
+		case 6:
+			{
+				SubmenuControl.menuType = SubmenuControl.SubMenuType.Puzzle2;
+				SubmenuControl.gotoScene = "Puzzle2";
+				Application.LoadLevel ("Submenu Select");
+			}
+			break;
+		case 7:
+			{
+				SubmenuControl.menuType = SubmenuControl.SubMenuType.Puzzle2;
+				SubmenuControl.gotoScene = "Quiz";
+				Application.LoadLevel ("Quiz");
+			}
+			break;
 		default:
 			break;
 		}

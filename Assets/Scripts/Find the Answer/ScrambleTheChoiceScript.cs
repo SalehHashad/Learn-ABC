@@ -65,8 +65,8 @@ public class ScrambleTheChoiceScript : GameParent
     /// pada setiap Tile pilihan.
     protected override void InitAlphabets()
     {
-        CorrectWords correctTile = correctWordList[alphabetIndex];
         List<ObjectWord> problemTile = new List<ObjectWord>();
+        CorrectWords correctTile = correctWordList[alphabetIndex];
 
         // Jawaban yang benar awalnya disimpan pada tile pada index pertama
         problemTile.Add(correctTile.correctWords[Random.Range(0, correctTile.correctWords.Count)]);
